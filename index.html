@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Estudante Ninja - Curso Digital</title>
   <style>
     body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
@@ -12,12 +12,27 @@
     h2 { margin-top: 30px; }
     p, li { font-size: 16px; line-height: 1.6; color: #333; }
     ul { padding-left: 20px; }
-    .cta { display: block; width: 100%; text-align: center; margin: 30px 0; }
-    .btn { background-color: #2b6cb0; color: white; padding: 15px 30px; font-size: 18px; border: none; border-radius: 8px; text-decoration: none; }
+    .cta { text-align: center; margin: 30px 0; }
+    .btn {
+      background-color: #2b6cb0;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+    }
     .price { font-size: 24px; font-weight: bold; color: #d53f8c; margin-top: 10px; }
     .bonus { color: #3182ce; font-weight: bold; }
-    #inscricao { margin-top: 50px; padding: 30px; background: #e6fffa; border-radius: 10px; }
-    #inscricao h2 { color: #2c7a7b; }
+    textarea {
+      width: 100%;
+      font-size: 16px;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
   </style>
 </head>
 <body>
@@ -49,7 +64,7 @@
     <p class="price">R$ 47,00 (ou 7x de R$ 7,59)</p>
 
     <div class="cta">
-      <a href="#inscricao" class="btn">QUERO COMEÇAR AGORA</a>
+      <a href="https://nubank.com.br/cobrar/ba0pg1/683fb729-221c-4540-b846-c5b492438252" class="btn" target="_blank">Ir para pagamento</a>
     </div>
 
     <h2>📄 Para quem é este curso?</h2>
@@ -63,12 +78,11 @@
     <h2>🎓 Autor:</h2>
     <p>Henrique Oliveira — Estudante com alto rendimento em esportes e apaixonado por ensinar o básico de tecnologia, formatação de trabalhos, IA e apresentações criativas.</p>
 
-    <!-- Seção de inscrição -->
-    <section id="inscricao">
-      <h2>📥 Inscreva-se agora</h2>
-      <p>Preencha o formulário de inscrição (ou acesse o link da plataforma de pagamento):</p>
-      <p><a href=00020126660014BR.GOV.BCB.PIX0114+55119878115260226Torne-se o Estudante-Ninja520400005303986540547.005802BR5925Henrique Oliveira dos San6009SAO PAULO62140510I4bRCl6VQw63046406 class="btn" target="_blank">Ir para pagamento</a></p>
-    </section>
+    <h2>🔁 Pagamento alternativo via Pix</h2>
+    <p>Copie o código abaixo e cole no app do seu banco para pagar por Pix:</p>
+    <textarea readonly rows="5">
+00020126660014BR.GOV.BCB.PIX0114+55119878115260226Torne-se o Estudante-Ninja520400005303986540547.005802BR5925Henrique Oliveira dos San6009SAO PAULO62140510I4bRCl6VQw63046406
+    </textarea>
   </div>
 </body>
 </html>
